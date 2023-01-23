@@ -29,8 +29,8 @@ Build project in production mode:
 npm run build
 ```
 
-Linting application for checking errors:
+<!-- Linting application for checking errors:
 
 ```bash
 npm run lint
-```
+``` -->
