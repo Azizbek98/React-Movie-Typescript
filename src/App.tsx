@@ -1,18 +1,15 @@
-import ClickCounter from './components/ClickCounter';
-import ImageComp from './components/ImageComp';
+import React from 'react';
+import { withErrorBoundary } from 'react-error-boundary';
+import HomePage from './pages/HomePage/HomePage';
+import ErrorPage from './pages/ErrorPage/ErrorPage';
 import './App.scss';
-import './App.css';
 
-const App: React.FC<{ title: string }> = ({ title }) => {
+const App: React.FC = () => {
   return (
-    <div>
-      <h1>Hello {title}</h1>
-      <h2>Application running on {process.env.webpackMode} mode</h2>
-      <ImageComp />
-      <hr />
-      <ClickCounter />
-    </div>
+    <>
+      <HomePage />
+    </>
   );
 };
 
-export default App;
+export default withErrorBoundary(App, { FallbackComponent: ErrorPage });

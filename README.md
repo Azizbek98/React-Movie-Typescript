@@ -1,6 +1,6 @@
-# React-Webpack-Bundler
+# ReactGMP-Netflix-Roulette
 
-![Banner Image](./banner.png 'Banner Image')
+![Banner Image](./banner.png "Banner Image")
 
 <h2 align="center">Basic ReactJS Project Bundler</h2>
 
@@ -13,7 +13,7 @@
 ##### Clone repo:
 
 ```bash
-git clone https://github.com/Azizbek98/React-Webpack-Bundler.git
+git clone https://git.epam.com/azizbek_samatov/reactgmp-netflix-roulette.git
 ```
 
 ##### Install and run:
@@ -33,10 +33,4 @@ Linting application for checking errors:
 
 ```bash
 npm run lint
-```
-
-Formating code with prettier:
-
-```bash
-npm run format
 ```

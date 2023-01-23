@@ -1,0 +1,26 @@
+.error {
+  &-container {
+    height: 100vh;
+    background-color: #555555;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-image {
+    height: 20rem;
+    margin-bottom: 2em;
+  }
+
+  &-title {
+    font-weight: 400;
+    color: #fff;
+
+    span {
+      color: #f65261;
+      font-weight: 800;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.navigation {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+  }
+
+  &-button {
+    border: none;
+    background: transparent;
+    padding: 11px 18px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f65261;
+    background-color: rgba($color: #606060, $alpha: 0.68);
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}

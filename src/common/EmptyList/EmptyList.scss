@@ -1,0 +1,20 @@
+.empty {
+  &-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-title {
+    padding-top: 1em;
+    font-size: 22px;
+    color: #fff;
+
+    span {
+      color: #ffc300;
+      font-weight: 700;
+    }
+  }
+}

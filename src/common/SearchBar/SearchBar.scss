@@ -1,0 +1,42 @@
+.search {
+  &-container {
+    padding: 2.2em 6rem;
+  }
+
+  &-title {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 49px;
+    color: #fff;
+  }
+
+  &-field {
+    margin-top: 1.2em;
+    padding: 16px 19px;
+    border: none;
+    width: 75%;
+    background: rgba(50, 50, 50, 0.8);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  &-button {
+    margin-left: 14px;
+    padding: 14px 74px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    background-color: #f65261;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.7;
+    }
+  }
+}

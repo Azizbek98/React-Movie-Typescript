@@ -30,9 +30,4 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
-};
+}
