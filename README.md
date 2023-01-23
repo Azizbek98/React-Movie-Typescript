@@ -4,7 +4,7 @@
 
 <h2 align="center">React Movie App Typescript</h2>
 
-<p align="center">This project bundler is a ready template for developing react web applications. Here I have used it to create movie web application using react and typescript.</p>
+<p align="center">In this project repo I have used it to create movie web application using react and typescript.</p>
 
 <hr />
 
