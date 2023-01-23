@@ -1,8 +1,8 @@
-# ReactGMP-Netflix-Roulette
+# React-Movie-Typescript
 
 ![Banner Image](./banner.png "Banner Image")
 
-<h2 align="center">Basic ReactJS Project Bundler</h2>
+<h2 align="center">React Movie App Typescript</h2>
 
 <p align="center">This project bundler is a ready template for developing react web applications.</p>
 
