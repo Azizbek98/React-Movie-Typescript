@@ -12,11 +12,11 @@ const LoginPage: React.FC = () => {
       <form onSubmit={handleSubmit} className="login-form">
         <h1 className="login-title">Log In</h1>
         <label className="login-label" htmlFor="user">
-          User ID:
+          User ID*
         </label>
         <input className="login-input" id="user" />
         <label className="login-label" htmlFor="password">
-          Password:
+          Password*
         </label>
         <input className="login-input" id="password" />
         <div>

@@ -27,6 +27,26 @@
     text-transform: uppercase;
   }
 
+  &-label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #f65261;
+  }
+
+  &-input {
+    border: none;
+    background: transparent;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    background: rgba(50, 50, 50, 0.948044);
+    border-radius: 4px;
+    padding: 17px 19px;
+  }
+
   &-footer {
     position: absolute;
     bottom: 2em;
