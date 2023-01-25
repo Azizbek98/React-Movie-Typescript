@@ -1,0 +1,20 @@
+.login {
+  &-container {
+    background-image: url('../../assets/login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-form {
+    padding: 63px 84px;
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+  }
+}
