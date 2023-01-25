@@ -6,7 +6,7 @@ const NavBar: React.FC = () => {
   return (
     <nav className="navigation-container container">
       <img src={logo} alt="logo" />
-      <button className="navigation-button">+ Add Movie</button>
+      <button className="navigation-btn">+ Add Movie</button>
     </nav>
   );
 };

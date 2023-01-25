@@ -6,7 +6,7 @@
     padding: 20px 60px;
   }
 
-  &-button {
+  &-btn {
     border: none;
     background: transparent;
     padding: 11px 18px;
@@ -16,5 +16,11 @@
     background-color: rgba($color: #606060, $alpha: 0.68);
     border-radius: 4px;
     font-family: 'Montserrat', sans-serif;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      background-color: rgba($color: #606060, $alpha: 1);
+      cursor: pointer;
+    }
   }
 }
