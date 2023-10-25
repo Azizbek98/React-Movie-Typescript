@@ -1,6 +1,6 @@
 # React-Movie-Typescript
 
-![Banner Image](./banner.png "Banner Image")
+![Banner Image](./banner2.png "Banner Image")
 
 <h2 align="center">React Movie App Typescript</h2>
 
